@@ -10,12 +10,20 @@
     background-color: grey;
 }
 
+.bg-lightblue {
+    background-color: #3a546d;
+}
+
 .height-100 {
     height: 100px;
 }
 
 .height-200 {
     height: 200px;
+}
+
+.height-400 {
+    height: 400px;
 }
 
 p {
