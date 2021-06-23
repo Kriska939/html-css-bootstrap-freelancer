@@ -25,20 +25,8 @@
     border-bottom: 1px solid grey;
 }
 
-
-
-
-.height-100 {
-    height: 100px;
+.text-personal-color {
+    color: #1abc9c;
 }
-
-.height-200 {
-    height: 200px;
-}
-
-.height-400 {
-    height: 400px;
-}
-
 
 
