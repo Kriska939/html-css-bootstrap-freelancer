@@ -19,6 +19,11 @@
     width: 15%;
 }
 
+#contact-me .form-control {
+    border: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+}
 
 
 
@@ -36,7 +41,4 @@
 }
 
 
-p .text-white {
-    color: white;
-}
 
