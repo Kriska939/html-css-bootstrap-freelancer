@@ -12,17 +12,30 @@
 </head>
 
 <body>
-    <header class="container-fluid bg-blue height-100">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-white">Header</p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+            <div class="container-fluid justify-content-lg-around">
+                <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold">
+                        <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white" href="#">CONTACT</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
-    <div id="jumbotron" class="container-fluid bg-green height-200">
+    <div id="jumbotron" class="container-fluid bg-green">
         <div class="row">
-            <div class="col-12">
-                <p>Jumbotron</p>
+            <div class="col-12 text-center">
+                    <img class="w-50 pt-4 pb-4"src="./img/avatar.svg" alt="User Avatar">
+                    <h3 class="text-white fs-1">START BOOTSTRAP</h3>
             </div>
         </div>
     </div>
